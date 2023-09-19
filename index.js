@@ -38,7 +38,11 @@ console.log("Core Package");
 //     console.log("Line number" + ": " + line);
 // });
 
-const assert = require("assert");
-// assert.ok(false, "ERROR, Custom Error");
-// assert.ok(5 > 7, "ERROR, Custom Error");
-assert.ok(true, "ERROR, Custom Error");
+// const assert = require("assert");
+// // assert.ok(false, "ERROR, Custom Error");
+// // assert.ok(5 > 7, "ERROR, Custom Error");
+// assert.ok(true, "ERROR, Custom Error");
+
+a = 5;
+b = "5";
+console.log(a === b);
